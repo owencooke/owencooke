@@ -1,6 +1,6 @@
 ### <p align=center> Hey there! Nice to meet you, I'm Owen. 👋 <p>
 <p align="center">
-  <a href="https://www.linkedin.com/in/owenscooke/" target="_blank" rel="noopener noreferrer">
+  <a target="_blank" href="https://www.linkedin.com/in/owenscooke/" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
     <a href="mailto:name@email.com">
