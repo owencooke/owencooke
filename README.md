@@ -1,5 +1,5 @@
 <p> 
-<h3> 👋 Hi, I'm Owen. It's nice to meet you! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+<h3> 👋 Hi, I'm Owen. It's nice to meet you! &emsp; &emsp;
   <a href="https://www.linkedin.com/in/owenscooke/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
