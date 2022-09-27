@@ -11,20 +11,22 @@
 
 ---
 ### I am
->🎓 a third year Computer Engineering Co-op Student from the University of Alberta.
+>🎓 a third year Computer Engineering (Software Co-op) Student from the University of Alberta.
 >
->💼 currently completing my co-op work term at the Laboratory of Intelligent Manufacturing, Design and Automation (LIMDA).\
-> As a Research Software Engineer, I was tasked with:
+>💼 currently employed at the Laboratory of Intelligent Manufacturing, Design and Automation (LIMDA).\
+> As a Software Research Assistant, I was tasked with:
 >
 >>💻 designing a desktop application for additive manufacturing, utilizing QML and Python to develop a fully functional GUI. 
 >>
->>🖨️ researching and developing algorithms for performing 3D printed part integrity comparisons using images and 3D scans.  
+>>🖨️ researching and developing algorithms for performing 3D printed part integrity comparisons using images and 3D scans.
+>>
+>>📝 publishing a conference paper for the <a href="https://icrai2023.org/"> 5th International Conference on Robotics and Automation in Industry </a>
 >
-> 👀 currently seeking 4 or 8 month co-op positions starting Winter 2023. 
+> 👀 currently seeking 4 month co-op/intern positions starting May 2023. 
 
 ### My Tech Stack
 >![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) 
 ![image](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![image](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
-![image](https://img.shields.io/badge/Matlab-fc7f03?style=for-the-badge&logo=matlab&logoColor=F7DF1E)
-![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![image](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![image](https://img.shields.io/badge/Matlab-6495ED?style=for-the-badge&logo=matlab&logoColor=blue)
