@@ -11,7 +11,7 @@
 
 ---
 ### I am
->🎓 a third year Computer Engineering (Software Co-op) Student from the University of Alberta.
+>🎓 a third year BSc. Computer Engineering Software Co-op Student from the University of Alberta.
 >
 >💼 currently employed at the <a href="https://sites.ualberta.ca/~rafiq1/aboutus.html"> Laboratory of Intelligent Manufacturing, Design and Automation (LIMDA) </a>\
 > As a Software Engineer Research Assistant, I was tasked with:
