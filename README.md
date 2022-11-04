@@ -14,13 +14,13 @@
 >🎓 a third year Computer Engineering (Software Co-op) Student from the University of Alberta.
 >
 >💼 currently employed at the <a href="https://sites.ualberta.ca/~rafiq1/aboutus.html"> Laboratory of Intelligent Manufacturing, Design and Automation (LIMDA) </a>\
-> As a Software Research Assistant, I was tasked with:
+> As a Software Engineer Research Assistant, I was tasked with:
 >
 >>💻 designing a GUI for additive manufacturing analysis utilizing QML and Python.
 >>
->>🖨️ researching and developing algorithms for performing 3D printed part integrity comparisons using images and 3D scans.
+>>🖨️ researching and developing algorithms for performing manufactured part-to-CAD comparisons using 3D scanning and computer vision.
 >>
->>📝 publishing a conference paper for the <a href="https://icrai2023.org/"> 5th International Conference on Robotics and Automation in Industry </a>
+>>📝 submitting a paper proposing a feature extraction algorithm for remanufacturing as part of the <a href="https://icrai2023.org/"> 5th International Conference on Robotics and Automation in Industry </a>
 >
 > 👀 currently seeking 4 month co-op/intern positions starting May 2023. 
 
