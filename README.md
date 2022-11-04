@@ -16,7 +16,7 @@
 >💼 currently employed at the <a href="https://sites.ualberta.ca/~rafiq1/aboutus.html"> Laboratory of Intelligent Manufacturing, Design and Automation (LIMDA) </a>\
 > As a Software Research Assistant, I was tasked with:
 >
->>💻 designing a desktop application for additive manufacturing, utilizing QML and Python to develop a fully functional GUI. 
+>>💻 designing a GUI for additive manufacturing analysis utilizing QML and Python.
 >>
 >>🖨️ researching and developing algorithms for performing 3D printed part integrity comparisons using images and 3D scans.
 >>
