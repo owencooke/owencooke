@@ -13,16 +13,19 @@
 ### I am
 >🎓 a third year BSc. Computer Engineering Software Co-op Student from the University of Alberta.
 >
->💼 currently employed at the <a href="https://sites.ualberta.ca/~rafiq1/aboutus.html"> Laboratory of Intelligent Manufacturing, Design and Automation (LIMDA) </a>\
-> As a Software Engineer Research Assistant, I was tasked with:
+>💼 currently employed at <a href="https://sites.ualberta.ca/~rafiq1/"> SMART LAB (Smart & Sustainable Manufacturing Systems LABoratory) </a>\
+> As a Software Engineer Research Assistant, I am:
 >
->>💻 designing a GUI for additive manufacturing analysis utilizing QML and Python.
+>>💻 developing a maturity assessment web tool using React and open-source JavaScript libraries. 
 >>
->>🖨️ researching and developing algorithms for performing manufactured part-to-CAD comparisons using 3D scanning and computer vision.
->>
->>📝 submitting a paper proposing a feature extraction algorithm for remanufacturing as part of the <a href="https://icrai2023.org/"> 5th International Conference on Robotics and Automation in Industry </a>
+>>🖨️ collaborating with two graduate students to convert their research algorithms from MATLAB to Python, with the end goal of integrating them as features in a desktop app for manufacturing analysis.
 >
-> 👀 currently seeking 4 month co-op/intern positions starting May 2023. 
+> 👀 currently seeking 4 month co-op/intern positions starting May 2023.
+
+### I will be
+>⚙️ representing the University of Alberta by competing in the <a href="https://www.wec2023.ca/"> Western Engineering Competition </a> in January 2023. Myself and 3 other students will be competing in the Programming category, where we will try to solve a given issue using software. 
+>
+>📝 presenting a paper proposing a feature extraction algorithm for remanufacturing as part of the <a href="https://icrai2023.org/"> 5th International Conference on Robotics and Automation in Industry </a> in March 2023.
 
 ### My Tech Stack
 >![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) 
