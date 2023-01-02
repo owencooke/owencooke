@@ -11,7 +11,7 @@
 
 ---
 ### I am
->🎓 a third year BSc. Computer Engineering Software Co-op Student from the University of Alberta.
+>🎓 a third-year BSc. Computer Engineering Software Co-op Student from the University of Alberta.
 >
 >💼 currently employed at <a href="https://sites.ualberta.ca/~rafiq1/"> SMART LAB (Smart & Sustainable Manufacturing Systems LABoratory) </a>\
 > As a Software Engineer Research Assistant, I am:
@@ -20,7 +20,7 @@
 >>
 >>🖨️ collaborating with two graduate students to convert their research algorithms from MATLAB to Python, with the end goal of integrating them as features in a desktop app for manufacturing analysis.
 >
-> 👀 currently seeking 4 month co-op/intern positions starting May 2023.
+> 👀 currently seeking 4-month co-op/intern positions starting May 2023.
 
 ### I will be
 >⚙️ representing the University of Alberta by competing in the <a href="https://www.wec2023.ca/"> Western Engineering Competition </a> in January 2023. Myself and 3 other students will be competing in the Programming category, where we will try to solve a given issue using software. 
