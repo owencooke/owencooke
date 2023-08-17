@@ -1,7 +1,7 @@
 #### Hi, I'm Owen 🌊 It's nice to meet you! I am:
 - proficient in full-stack web development and research software prototyping
 - interested in learning more about machine learning and robotics
-- seeking internship/co-op opportunities for Summer 2024
+- seeking internships or co-op opportunities for Summer 2024
 
 
 #### Tech Stack
