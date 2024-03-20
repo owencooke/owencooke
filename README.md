@@ -1,7 +1,7 @@
 #### Hi, my name is Owen! 👋 I am
 - proficient in full-stack development and research prototyping
 - passionate about developing impactful software solutions (see the 📌s below!)
-- currently looking for innovative SWE internships for Fall 2024 🦅🍁
+- also interested in entrepreneurship and machine learning
 
 
 #### Fave Frameworks
