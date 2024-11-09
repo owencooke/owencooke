@@ -6,7 +6,7 @@ Hi, my name is Owen! <img src="https://emojis.slackmojis.com/emojis/images/16435
   </a>
 =======
 
-I'm a 5th-year **Computer Software Engineering** student from the University of Alberta. I'm passionate about **full stack development** and **tech entrepreneurship**, building impactful products, and always open to chatting about the newest trends in web dev and the startup scene.
+I'm a 5th-year **Computer Software Engineering** student from the University of Alberta. I'm passionate about **full stack development** and **tech entrepreneurship**, building impactful products, and always open to chatting about the newest trends in web dev/the startup scene.
  
 <p>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=owencooke&hide_rank=true&custom_title=GitHub+Stats&show_icons=true&theme=moltack" />
