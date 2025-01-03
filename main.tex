@@ -1,0 +1,238 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+    \item\small{
+        {#1 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in,
+            label={}]}
+        \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+        \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\huge \scshape Owen Cooke} \\ \vspace{1pt}
+    \small 780-446-9694 $|$
+    \href{mailto:ocooke@ualberta.ca}{\underline{ocooke@ualberta.ca}} $|$
+
+    \href{https://www.linkedin.com/in/owenscooke/}{\underline{linkedin.com/in/owenscooke}}
+    $|$
+    \href{https://github.com/owencooke}{\underline{github.com/owencooke}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Alberta}{Sep 2020 -- May 2025}
+{Bachelor of Science in Computer Engineering Co-op -- Software
+    Option}{Edmonton, AB}
+\resumeItemListStart
+\resumeItem{Scholarships: Superior Undergraduate Achievement (2022-24),
+    Jason Lang (2021-23)}
+\resumeItem{Coursework: Data Structures, Algorithms, Operating Systems,
+    Databases, Data Analysis and Machine Learning}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+                    \textbf{Programming Languages}{: JavaScript, TypeScript,
+                        Python, Java,
+                        C/C++, Rust, HTML, CSS, SQL} \\
+                    \textbf{Frameworks \& Tools}{: React, Node, Spring Boot,
+                        Flask,
+                        PostgreSQL, MongoDB, AWS, Elasticsearch, Docker, Git}
+                    \\
+
+              }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{NimbleRx}{Sep 2024 -- Present}
+{Software Engineer Intern}{San Francisco, CA}
+\resumeItemListStart
+\resumeItem{Created an audit tool for downloading Stripe transactions
+    using React, enabling the launch of 85 new pharmacies.}
+\resumeItem{Refactored Spring Boot integration services to optimize
+    Amazon S3 upload performance by 30\% platform-wide.}
+\resumeItem{Implemented job scheduling via Amazon SQS, enabling
+    planned production data changes for operations teams.}
+\resumeItemListEnd
+
+\resumeSubheading
+{RBC Royal Bank}{May 2024 -- Aug 2024}
+{Software Developer Intern, Amplify}{Toronto, ON}
+\resumeItemListStart
+\resumeItem{Filed a patent for an LLM transcription assistant to
+    capture incident resolutions efforts and reduce user overhead.}
+\resumeItem{Built automatic incident timeline summarization in
+    real-time via WebSockets with React, Python, and MongoDB.}
+\resumeItemListEnd
+
+\resumeSubheading
+{ATB Financial}{May 2023 -- Aug 2023}
+{Software Developer Intern}{Edmonton, AB}
+\resumeItemListStart
+\resumeItem{Developed REST APIs for platform banners with Node and
+    PostgreSQL, eliminating 100\% of hard-coded changes.}
+\resumeItem{Implemented an internal React tool enabling advanced
+    scheduling and emergency overriding of platform banners.}
+\resumeItemListEnd
+
+\resumeSubheading
+{SMART LAB}{Jan 2023 -- Apr 2023}
+{Software Research Assistant}{Edmonton, AB}
+\resumeItemListStart
+\resumeItem{Designed a survey tool via React and Firebase to help small
+    manufacturers visualize their digital maturity.}
+\resumeItem{Built a 3D repair app in Python via SciPy and Qt to
+    automate wear repair of pipes with a simulated robotic cell.}
+\resumeItemListEnd
+
+\resumeSubheading
+{LIMDA Laboratory}{May 2022 -- Dec 2022}
+{Software Research Assistant}{Edmonton, AB}
+\resumeItemListStart
+\resumeItem{Developed a desktop app via Python and Qt for detecting 3D
+    print defects from 3D scans to improve part quality.}
+\resumeItem{Published an IEEE paper proposing a 3D scan feature
+    extraction algorithm for automated re-manufacturing.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{What to Code} $|$ \emph{Next.js, PostgreSQL, LangChain,
+        OpenAI}}{Jun 2024 -- Present}
+\resumeItemListStart
+\resumeItem{Launched an LLM-powered idea platform to help
+    developers kickstart projects, as part of a startup incubator.}
+
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{MobilityMate} $|$ \emph{React, Flask, OpenAI}}{Jan 2024}
+\resumeItemListStart
+\resumeItem{Implemented an AI voice assistant to support senior
+    physiotherapy patients through their exercises.}
+\resumeItem{Won 1st Place for the Diversity in Engineering Prize at
+    HackED 2024 for promoting accessibility.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{TaskKeepr} $|$ \emph{JavaScript, Microsoft Graph API,
+        Cohere}}{Sep 2023}
+\resumeItemListStart
+\resumeItem{Created a Microsoft Teams bot to summarize messages and
+    classify work tasks in a user-friendly dashboard.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{OutageML} $|$ \emph{React, PyTorch}}{Apr 2023}
+\resumeItemListStart
+\resumeItem{Built an ML app to prioritize areas for power outage
+    repair to minimize downtime during emergencies.}
+\resumeItem{Secured 2nd Place overall at the 2023 APIC Energy
+    Hackathon, recognizing innovation in energy tech.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------VOLUNTEERING-----------
+\section{Volunteering}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Computer Engineering Club}{Sep 2023 -- Sep 2024}
+{Junior Executive, Upper Year Rep}{Edmonton, AB}
+\resumeItemListStart
+\resumeItem{Redesigned club website in React to improve visibility of
+    events and technical resources for engineering students.}
+\resumeItem{Established partnerships with tech recruiters to secure
+    sponsorships for hackathons and career fairs.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
