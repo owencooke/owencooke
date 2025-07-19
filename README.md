@@ -1,19 +1,15 @@
-Hi, my name is Owen! <img src="https://emojis.slackmojis.com/emojis/images/1643514747/7550/pikachu_wave.gif?1643514747" height="36px">  <a href="https://www.linkedin.com/in/owenscooke/">
+Hey, I'm Owen! <img src="https://emojis.slackmojis.com/emojis/images/1643514747/7550/pikachu_wave.gif?1643514747" height="36px">  <a href="https://www.linkedin.com/in/owenscooke/">
     <img align="right" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://x.com/theowencooke/">
     <img align="right" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white" />
   </a>
 =======
-
-I'm a Canadian SWE who's a big fan of full stack development, tech entrepreneurship, and building impactful products.
  
 <p>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=owencooke&hide_rank=true&custom_title=GitHub+Stats&show_icons=true&theme=moltack" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=owencooke&layout=donut&theme=moltack" />
 </p>
-
-I'm also currently seeking **New Grad SWE** roles starting **Summer 2025**, feel free to reach out on <a href="https://www.linkedin.com/in/owenscooke/">LinkedIn</a> or at my [email](mailto:ocooke@ualberta.ca)!  
 
 ## Some Things I've Built 
 
