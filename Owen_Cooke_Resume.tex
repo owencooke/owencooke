@@ -56,6 +56,13 @@
     \end{tabular*}\vspace{-7pt}
 }
 
+\newcommand{\resumeSubheadingTitleOnly}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -86,8 +93,8 @@
 %----------HEADING----------
 \begin{center}
     \textbf{\huge \scshape Owen Cooke} \\ \vspace{1pt}
-    \small 780-446-9694 $|$
-    \href{mailto:ocooke@ualberta.ca}{\underline{ocooke@ualberta.ca}} $|$
+    \small 415-410-0316 $|$
+    \href{mailto:owencooke15@gmail.com}{\underline{owencooke15@gmail.com}} $|$
     \href{https://www.linkedin.com/in/owenscooke/}
     {\underline{linkedin.com/in/owenscooke}}
     $|$
@@ -100,7 +107,7 @@
 \resumeSubheading
 {University of Alberta}{Sep 2020 -- Jun 2025}
 {Bachelor of Science in Computer Engineering Co-op -- Software
-    Option}{Edmonton, AB}
+    Option}{3.96 GPA}
 \resumeItemListStart
 \resumeItem{Scholarships: Superior Undergraduate Achievement (2022-24),
     Jason Lang (2021-23)}
@@ -111,15 +118,15 @@
 
 %
 %-----------PROGRAMMING SKILLS-----------
-\section{Skills}
+\section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-                    \textbf{Programming Languages}{: JavaScript, TypeScript,
-                        Python, Java,
-                        C/C++, Rust, HTML/CSS, SQL} \\
-                    \textbf{Frameworks \& Tools}{: React, Node, Spring Boot,
-                        Next.js, Jest,
-                        PostgreSQL, MongoDB, AWS, Kibana, Docker,
+                    \textbf{Programming Languages}{: TypeScript, JavaScript
+                        Java, Python, HTML/CSS, SQL
+                        C/C++, Rust} \\
+                    \textbf{Frameworks \& Tools}{: React, Node, Spring,
+                        Expo, PostgreSQL, Jest, JUnit,
+                        Playwright, AWS, Kibana, Docker,
                         Git} \\
 
               }}
@@ -129,18 +136,26 @@
 \section{Experience}
 \resumeSubHeadingListStart
 \resumeSubheading
+{NimbleRx}{Sep 2025 -- Present}
+{Software Engineer}{Redwood City, CA}
+\resumeItemListStart
+\resumeItem{Designing and implementing Spring services and React features to deliver product enhancements for pharmacists.}
+\resumeItem{Investigating production issues via Kibana log and SQL analysis and resolving, reducing pharmacy pain points.}
+\resumeItemListEnd
+
+\resumeSubheading
 {NimbleRx}{Sep 2024 -- Dec 2024}
-{Software Engineer Intern}{San Francisco Bay Area, CA}
+{Software Engineer Intern}{Redwood City, CA}
 \resumeItemListStart
 \resumeItem{Created an audit tool for downloading Stripe
-    transactions using React, unblocking the launch of 85 pharmacies.}
+    transactions using React, unblocking the launch of \textbf{85} pharmacies.}
 \resumeItem{Refactored REST
     APIs
-    and frontend flows to eliminate 85,000 improper
+    and frontend flows to eliminate \textbf{85,000} improper
     404 errors/day, improving observability.}
 \resumeItem{Optimized Amazon S3 integrations via Spring and AWS
     SDK, reducing file
-    upload time by 30\% platform-wide.}
+    upload time by \textbf{30\%} platform-wide.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -161,26 +176,18 @@
 \resumeItemListEnd
 
 \resumeSubheading
-{SMART LAB}{Jan 2023 -- Apr 2023}
+{SMART LAB}{May 2022 -- Apr 2023}
 {Software Research Assistant}{Edmonton, AB}
 \resumeItemListStart
-\resumeItem{Designed a survey tool via React and Google Firebase to help small
-    manufacturers visualize their digital maturity.}
-\resumeItem{Built a 3D desktop app in Python via SciPy and Qt to
-    automate wear repair of pipes with a simulated robotic cell.}
-\resumeItemListEnd
-
-\resumeSubheading
-{LIMDA Laboratory}{May 2022 -- Dec 2022}
-{Software Research Assistant}{Edmonton, AB}
-\resumeItemListStart
+\resumeItem{Built a 3D app in Python to integrate with a simulated robotic cell for visualizing automated wear repair of pipes.}
+    \resumeItem{Published an IEEE paper proposing a new 3D-scan feature
+    extraction algorithm for re-manufacturing automation.}
 \resumeItem{Developed a desktop app via Python and Qt for detecting 3D
     print defects from 3D scans to improve part quality.}
-\resumeItem{Published an IEEE paper proposing a new 3D-scan feature
-    extraction algorithm for re-manufacturing automation.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
+
 
 %-----------PROJECTS-----------
 \section{Projects}
@@ -215,24 +222,19 @@
 \resumeItem{Won 1st Place for the Diversity in Engineering Prize at
     HackED 2024 for promoting accessibility.}
 \resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{\href{https://github.com/owencooke/OutageML}{\underline{OutageML}}}
-    $|$ \emph{React, PyTorch}}{Apr 2023}
-\resumeItemListStart
-\resumeItem{Built an ML app to prioritize areas for power outage
-    repair to minimize downtime during emergencies.}
-\resumeItem{Secured 2nd Place overall at the 2023 APIC Energy
-    Hackathon, recognizing innovation in energy tech.}
-\resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %-----------VOLUNTEERING-----------
 \section{Volunteering}
 \resumeSubHeadingListStart
-\resumeSubheading
+\resumeSubheadingTitleOnly
+{Western Engineering Competition 2026}{May 2025 -- Sep 2025}
+\resumeItemListStart
+\resumeItem{Designed challenge prompt, rubric, and presentation materials as co-director of programming category.}
+\resumeItemListEnd
+
+\resumeSubheadingTitleOnly
 {Computer Engineering Club}{Sep 2023 -- Sep 2024}
-{Junior Executive, Upper Year Rep}{Edmonton, AB}
 \resumeItemListStart
 \resumeItem{Redesigned club website in React to improve visibility of
     events and technical resources for engineering students.}
