@@ -141,7 +141,8 @@
 {Software Engineer Intern}{Redwood City, CA}
 \resumeItemListStart
 \resumeItem{Unblocked the launch of \textbf{85 pharmacies} by building an itemized transaction audit tool in React, enabling self-serve financial reconciliation for Stripe transactions without customer support involvement.}
-\resumeItem{Improved platform observability and performance by refactoring REST APIs to eliminate \textbf{86k 404 Not Found errors/day} and optimizing AWS S3 Java integration to reduce file upload latency by \textbf{30\%} platform-wide.}
+\resumeItem{Eliminated \textbf{86k invalid REST API errors/day} by refactoring Java Spring controllers and React flows to return proper empty-list responses for missing resources, improving error observability measured in Elastic APM.}
+\resumeItem{Reduced file upload latency by \textbf{30\%} platform-wide by supplying the Java AWS S3 integration with accurate content-length headers and replacing a high-overhead streaming writer, eliminating unnecessary re-buffering.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -156,7 +157,7 @@
 {ATB Financial}{May 2023 -- Aug 2023}
 {Software Developer Intern}{Edmonton, AB}
 \resumeItemListStart
-\resumeItem{Eliminated weekly manual deployments by building Express.js/PostgreSQL APIs and a React tool for self-serve site banner management with scheduling, emergency override, and audit history.}
+\resumeItem{Saved \textbf{100 developer hours/year} by building Express.js APIs and a React internal tool for self-serve banner management with scheduling, emergency override, and audit history, eliminating PR review and 30min CI/CD run for every holiday notice, outage alert, and marketing update.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
