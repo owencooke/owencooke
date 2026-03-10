@@ -81,11 +81,10 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in,
-            label={}]}
-        \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-        \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
 \begin{document}
@@ -95,8 +94,7 @@
     \textbf{\huge \scshape Owen Cooke} \\ \vspace{1pt}
     \small 415-410-0316 $|$
     \href{mailto:owencooke15@gmail.com}{\underline{owencooke15@gmail.com}} $|$
-    \href{https://www.linkedin.com/in/owenscooke/}
-    {\underline{linkedin.com/in/owenscooke}}
+    \href{https://www.linkedin.com/in/owenscooke/}{\underline{linkedin.com/in/owenscooke}}
     $|$
     \href{https://github.com/owencooke}{\underline{github.com/owencooke}}
 \end{center}
@@ -106,140 +104,81 @@
 \resumeSubHeadingListStart
 \resumeSubheading
 {University of Alberta}{Sep 2020 -- Jun 2025}
-{Bachelor of Science in Computer Engineering Co-op -- Software
-    Option}{3.96 GPA}
-\resumeItemListStart
-\resumeItem{Scholarships: Superior Undergraduate Achievement (2022-24),
-    Jason Lang (2021-23)}
-\resumeItem{Coursework: Data Structures, Algorithms, Operating Systems,
-    Databases, Data Analysis and Machine Learning}
-\resumeItemListEnd
+{Bachelor of Science in Computer Engineering Co-op -- Software Option}{3.96 GPA}
 \resumeSubHeadingListEnd
 
-%
-%-----------PROGRAMMING SKILLS-----------
+%-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-                    \textbf{Programming Languages}{: TypeScript, JavaScript
-                        Java, Python, HTML/CSS, SQL
-                        C/C++, Rust} \\
-                    \textbf{Frameworks \& Tools}{: React, Node, Spring,
-                        Expo, PostgreSQL, Jest, JUnit,
-                        Playwright, AWS, Kibana, Docker,
-                        Git} \\
-
-              }}
+        \textbf{Programming Languages}{: TypeScript, JavaScript, Java, Python, C/C++, Rust, SQL, HTML/CSS} \\
+        \textbf{Frameworks \& Libraries}{: React, Next.js, Spring, Node.js, React Native, FastAPI, Flask} \\
+        \textbf{Infrastructure \& Tools}{: PostgreSQL, Redis, MongoDB, AWS (S3/RDS), Docker, ELK Stack, REST APIs, Git} \\
+    }}
 \end{itemize}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
+
 \resumeSubheading
 {NimbleRx}{Sep 2025 -- Present}
 {Software Engineer}{Redwood City, CA}
 \resumeItemListStart
-\resumeItem{Designing and implementing Spring services and React features to deliver product enhancements for pharmacists.}
-\resumeItem{Investigating production issues via Kibana log and SQL analysis and resolving, reducing pharmacy pain points.}
+\resumeItem{Reduced API latency from 15.8s to 864ms (\textbf{94\%}) for a 3rd-party integration serving \textbf{15k prescriptions/day}, by refactoring N+1 queries to batched JPA, applying Spring Data projections, and adding Redis caching.}
+
+\resumeItem{Scaled operations for \textbf{$\sim$115 pharmacies} by building a ComputerRx SFTP return-to-stock integration, validating \textbf{440k prescription fills} over 4 months and processing \textbf{$\sim$25k compliance signals/week}.}
+
+\resumeItem{Improved pharmacy engagement across \textbf{20 beta pharmacies} by building a zero-to-one React Native tablet app with real-time patient messaging (Stream SDK), push notifications, and order management, delivering \textbf{30k+ push notifications} in pilot.}
+
+\resumeItem{Accelerated PM prioritization across \textbf{all 8 product cells} by building an LLM-powered Salesforce case clustering tool (Gemini API) to classify, deduplicate, and rank a \textbf{2+ year} enhancement backlog.}
+
+\resumeItem{Eliminated \textbf{214k erroneous patient SMS/week} by fixing MedSync-exclusion Java logic, preventing pharmacy churn; also purged \textbf{38M stale DB records} to reclaim Amazon RDS storage while cleaning up dead code. }
 \resumeItemListEnd
 
 \resumeSubheading
 {NimbleRx}{Sep 2024 -- Dec 2024}
 {Software Engineer Intern}{Redwood City, CA}
 \resumeItemListStart
-\resumeItem{Created an audit tool for downloading Stripe
-    transactions using React, unblocking the launch of \textbf{85} pharmacies.}
-\resumeItem{Refactored REST
-    APIs
-    and frontend flows to eliminate \textbf{85,000} improper
-    404 errors/day, improving observability.}
-\resumeItem{Optimized Amazon S3 integrations via Spring and AWS
-    SDK, reducing file
-    upload time by \textbf{30\%} platform-wide.}
+\resumeItem{Unblocked the launch of \textbf{85 pharmacies} by building an itemized transaction audit tool in React, enabling self-serve financial reconciliation for Stripe transactions without customer support involvement.}
+\resumeItem{Improved platform observability and performance by refactoring REST APIs to eliminate \textbf{86k 404 Not Found errors/day} and optimizing AWS S3 Java integration to reduce file upload latency by \textbf{30\%} platform-wide.}
 \resumeItemListEnd
 
 \resumeSubheading
 {RBC Royal Bank}{May 2024 -- Aug 2024}
 {Software Developer Intern}{Toronto, ON}
 \resumeItemListStart
-\resumeItem{Filed a patent for an LLM transcription tool to automate incident documentation for more intelligent IT insights.}
-\resumeItem{Built real-time incident resolution tracking with WebSockets and MongoDB to visualize SRE response timelines.}
+\resumeItem{Led a team of 4 to ideate, engineer, and pitch an LLM-powered transcription tool to automate SRE incident summarization and timeline capture using a WebSocket-driven virtual meeting integration.}
+\resumeItem{Filed a USPTO patent for the system and was only the \textbf{8th project in 10 years} deployed at enterprise scale.}
 \resumeItemListEnd
 
 \resumeSubheading
 {ATB Financial}{May 2023 -- Aug 2023}
 {Software Developer Intern}{Edmonton, AB}
 \resumeItemListStart
-\resumeItem{Wrote APIs for managing site banners with Node and
-    Postgres, eliminating weekly manual code deployments.}
-\resumeItem{Implemented an internal React tool for improved banner UX via  scheduling, emergency override, and history logs.}
-\resumeItemListEnd
-
-\resumeSubheading
-{SMART LAB}{May 2022 -- Apr 2023}
-{Software Research Assistant}{Edmonton, AB}
-\resumeItemListStart
-\resumeItem{Built a 3D app in Python to integrate with a simulated robotic cell for visualizing automated wear repair of pipes.}
-    \resumeItem{Published an IEEE paper proposing a new 3D-scan feature
-    extraction algorithm for re-manufacturing automation.}
-\resumeItem{Developed a desktop app via Python and Qt for detecting 3D
-    print defects from 3D scans to improve part quality.}
+\resumeItem{Eliminated weekly manual deployments by building Express.js/PostgreSQL APIs and a React tool for self-serve site banner management with scheduling, emergency override, and audit history.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
-
 \resumeProjectHeading
-{\textbf{\href{https://github.com/owencooke/memento}{\underline{Memento}}}
-    $|$ \emph{React Native, FastAPI, PostgreSQL, Google Cloud}}{Jan 2025 -- Apr 2025}
+{\textbf{\href{https://github.com/owencooke/memento}{\underline{Memento}}} $|$ \emph{React Native, FastAPI, PostgreSQL, Google Cloud}}{Jan 2025 -- Apr 2025}
 \resumeItemListStart
-\resumeItem{Created a mobile app to easily preserve keepsakes with image metadata, classification, and background removal.}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{\href{https://github.com/owencooke/what-to-code}{\underline{What to
-                Code}}}
-    $|$
-    \emph{Next.js, PostgreSQL, LangChain,
-        OpenAI}}{Jun 2024 -- Dec 2024}
-\resumeItemListStart
-\resumeItem{Launched an LLM-powered platform to help
-    coders brainstorm ideas and kickstart repositories via GitHub's API.}
-
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{\href{https://github.com/owencooke/mobility-mate}{\underline{MobilityMate}}}
-    $|$
-    \emph{React, Flask, OpenAI}}{Jan 2024}
-\resumeItemListStart
-\resumeItem{Implemented an AI voice assistant to support senior
-    physiotherapy patients through their exercises.}
-\resumeItem{Won 1st Place for the Diversity in Engineering Prize at
-    HackED 2024 for promoting accessibility.}
+\resumeItem{Built a mobile app to digitize and preserve physical keepsakes using ML-powered image classification, metadata extraction, and background removal.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %-----------VOLUNTEERING-----------
+
 \section{Volunteering}
 \resumeSubHeadingListStart
 \resumeSubheadingTitleOnly
 {Western Engineering Competition 2026}{May 2025 -- Sep 2025}
 \resumeItemListStart
-\resumeItem{Designed challenge prompt, rubric, and presentation materials as co-director of programming category.}
-\resumeItemListEnd
-
-\resumeSubheadingTitleOnly
-{Computer Engineering Club}{Sep 2023 -- Sep 2024}
-\resumeItemListStart
-\resumeItem{Redesigned club website in React to improve visibility of
-    events and technical resources for engineering students.}
-\resumeItem{Established partnerships with tech recruiters to secure
-    sponsorships for hackathons and career fairs.}
+\resumeItem{Designed the challenge prompt, rules, and judging rubric as Co-Director of Programming; teams were tasked with building an electric bus fleet management system (real-time mapping, route optimization, charging failover).}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
