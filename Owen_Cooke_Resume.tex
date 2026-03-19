@@ -112,7 +112,7 @@
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
         \textbf{Programming Languages}{: TypeScript, JavaScript, Java, Python, C/C++, Rust, SQL, HTML/CSS} \\
-        \textbf{Frameworks \& Libraries}{: React, Next.js, Spring, Node.js, React Native, FastAPI, Flask} \\
+        \textbf{Frameworks \& Libraries}{: React, Next.js, Spring, Node.js, Express.js, React Native, FastAPI, Flask} \\
         \textbf{Infrastructure \& Tools}{: PostgreSQL, Redis, MongoDB, AWS (S3/RDS), Docker, ELK Stack, REST APIs, Git} \\
     }}
 \end{itemize}
@@ -125,15 +125,19 @@
 {NimbleRx}{Sep 2025 -- Present}
 {Software Engineer}{Redwood City, CA}
 \resumeItemListStart
-\resumeItem{Reduced API latency from 15.8s to 864ms (\textbf{94\%}) for a 3rd-party integration serving \textbf{15k prescriptions/day}, by refactoring N+1 queries to batched JPA, applying Spring Data projections, and adding Redis caching.}
 
-\resumeItem{Scaled operations for \textbf{$\sim$115 pharmacies} by building a ComputerRx SFTP return-to-stock integration, validating \textbf{440k prescription fills} over 4 months and processing \textbf{$\sim$25k compliance signals/week}.}
+\resumeItem{Automated insurance-mandated prescription expiry for \textbf{115 pharmacies} by building a pharmacy system SFTP integration using Java and Spring, preventing patients from purchasing \textbf{110k invalid prescriptions/month}.}
 
-\resumeItem{Improved pharmacy engagement across \textbf{20 beta pharmacies} by building a zero-to-one React Native tablet app with real-time patient messaging (Stream SDK), push notifications, and order management, delivering \textbf{30k+ push notifications} in pilot.}
+\resumeItem{Eliminated \textbf{214k erroneous patient SMS/week} by fixing broken prescription exclusion logic, preventing pharmacy churn; also purged \textbf{38M stale DB records} to reclaim \textbf{$\sim$14GB} of database storage.}
 
-\resumeItem{Accelerated PM prioritization across \textbf{all 8 product cells} by building an LLM-powered Salesforce case clustering tool (Gemini API) to classify, deduplicate, and rank a \textbf{2+ year} enhancement backlog.}
+\resumeItem{Cut API p95 latency \textbf{94\%} (15.8s → 864ms) for a pharmacy management system integration polling \textbf{$\sim$15k prescriptions/day}, by batching N+1 DB queries, applying Spring JPA projections, and adding Redis caching.}
 
-\resumeItem{Eliminated \textbf{214k erroneous patient SMS/week} by fixing MedSync-exclusion Java logic, preventing pharmacy churn; also purged \textbf{38M stale DB records} to reclaim Amazon RDS storage while cleaning up dead code. }
+\resumeItem{Launched a Johnson \& Johnson nonprofit pharmacy, delivering \textbf{3000 prescription fills/month} to underserved patients by creating a pharmacy system SFTP integration for CareTend and custom delivery estimation logic.}
+
+\resumeItem{Built a React Native tablet app for patient chat and order management distributed to \textbf{20 beta pharmacies} via TestFlight, delivering \textbf{30k push notifications} as a low-friction alternative to web dashboard sound alerts.}
+
+\resumeItem{Accelerated roadmap prioritization across \textbf{all 8 product teams} by building an LLM-powered tool to classify, cluster, and rank a \textbf{2+ year} backlog of customer-reported bugs and feature requests from Salesforce.}
+
 \resumeItemListEnd
 
 \resumeSubheading
@@ -168,7 +172,7 @@
 \resumeProjectHeading
 {\textbf{\href{https://github.com/owencooke/memento}{\underline{Memento}}} $|$ \emph{React Native, FastAPI, PostgreSQL, Google Cloud}}{Jan 2025 -- Apr 2025}
 \resumeItemListStart
-\resumeItem{Built a mobile app to digitize and preserve physical keepsakes using ML-powered image classification, metadata extraction, and background removal.}
+\resumeItem{Architected and led development of a \textbf{100\% type-safe} monorepo (SQL → Pydantic → TypeScript codegen) and CI/CD pipelines (unit/E2E testing), delivering a React Native app for ML-powered keepsake digitization.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -179,7 +183,7 @@
 \resumeSubheadingTitleOnly
 {Western Engineering Competition 2026}{May 2025 -- Sep 2025}
 \resumeItemListStart
-\resumeItem{Designed the challenge prompt, rules, and judging rubric as Co-Director of Programming; teams were tasked with building an electric bus fleet management system (real-time mapping, route optimization, charging failover).}
+\resumeItem{Designed the prompt, rules, and judging rubric as Co-Director of Programming, where \textbf{40 students} were challenged to build an electric bus fleet management simulation (real-time mapping, route optimization, and charging).}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
