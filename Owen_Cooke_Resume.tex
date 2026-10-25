@@ -59,20 +59,26 @@
 \resumeCompanyHeading{NimbleRx}{Redwood City, CA}
 \resumeRoleHeading{Senior Software Engineer}{Jul 2026 -- Present}
 \resumeItemListStart
-\resumeItem{Integrated an acquired YC startup's \textbf{AI voice agent} for pharmacy inbound calls (refills, order status, SMS app links) onto system-agnostic Nimble APIs, live in $\sim$2 weeks; now handling $\sim$\textbf{1,500 calls/week}.}
-\resumeItem{Solo-designed v2 of the agent, expanding it from 4 to \textbf{13 tool calls}; a per-call randomized A/B cut upfront requests for a human from \textbf{31.6\% to 10.6\%} and raised fully resolved calls from 7.4\% to 12.3\%.}
-\resumeItem{Designed a zero-downtime pharmacy-product \textbf{state machine} replacing \textbf{13 conflicting fields} ($\sim$500 references) for 7,000+ pharmacies; rebuilt 7 years of history and coordinated a 9-engineer cutover without a mandate.}
-\resumeItem{Cut holiday delivery-date support cases from 4+ in a holiday week to \textbf{0} by modeling each courier's schedule separately from pharmacy closures across 13 courier services, after outreach to 8 regional and specialty couriers.}
-\resumeItem{Led a feature-flag cleanup across 18 owners that cut stale flags \textbf{40\%} (85 $\rightarrow$ 51), then built a weekly \textbf{Claude Code GitHub Action} that has opened 34 cleanup PRs with a public Slack digest.}
+\resumeItem{Integrated Remedy (an acquired YC startup)'s \textbf{AI voice agent} for pharmacy inbound calls onto pharmacy system-agnostic tool calls (patient identification, refills, SMS link to checkout); now handling $\sim$\textbf{1,500 calls/week}.}
+\resumeItem{Led design for v2 of the voice agent, expanding it from 4 to \textbf{13 tool calls}; a per-call randomized A/B cut upfront requests to speak to a human from \textbf{31.6\% to 10.6\%} and raised agent self-served calls from 7.4\% to 12.3\%.}
+
+% TODO needs to be shortened!
+\resumeItem{Refactored the core pharmacy-product tier model referenced 500+ times across 4 monorepos, replacing \textbf{13 conflicting DB fields} and scattered tier-access logic with a simple state machine for 7,000+ pharmacies; rebuilt 7 years of product history and coordinated a 9-engineer migration with zero-downtime.}
+
+\resumeItem{Cut holiday delivery-date support cases from 4+ in a holiday week to \textbf{0} by modeling each courier's schedule separately from pharmacy closures across 13 courier services, including coordinated outreach to 8 regional couriers.}
+
+\resumeItem{Led a cleanup across 18 engineers that cut stale feature flags \textbf{40\%} (85 $\rightarrow$ 51), then built a \textbf{GitHub Action cron} that has opened 34 code cleanup PRs using Statsig/Claude APIs and posts a weekly Slack digest with links and trends.}
 \resumeItemListEnd
 
 \resumeRoleHeading{Software Engineer}{Sep 2025 -- Jun 2026}
 \resumeItemListStart
-\resumeItem{Rebuilt $\sim$\textbf{\$210k/month} in pharmacy incentive payouts as a solo full-stack project: auditable calculations, a Retool Finance review tool, and SendGrid owner emails, replacing hand-run SQL and manual emails.}
-\resumeItem{Shipped in-table bulk label printing for the pharmacy dashboard (4,044 jobs across 116 pharmacies in week one; now $\sim$\textbf{8k jobs/week}) and owned the courier v2 API migration behind it, moving \textbf{8,320 orders} with zero downtime.}
-\resumeItem{Fixed root causes across \textbf{56 pharmacy-reported cases} (\#1 of 17 engineers), including a courier integration that had never placed an order (now $\sim$5.2k/month) and $\sim$214k unwanted texts/week to excluded patients.}
+\resumeItem{Rebuilt $\sim$\textbf{\$210k/month} in pharmacy incentive payouts as an automated monthly cron: per-pharmacy calculations, a Retool UI for Finance approval, and payout emails via SendGrid, replacing hand-run SQL and manual emails.}
+
+\resumeItem{Shipped bulk package label printing for the delivery orders dashboard (4,044 jobs across 116 pharmacies in week one; now $\sim$\textbf{8k jobs/week}) and owned the courier v2 API migration behind it, moving \textbf{8,320 orders} with zero downtime.}
+
+\resumeItem{Fixed root causes across \textbf{56 pharmacy-reported bug cases} (\#1 of 17 engineers), including a delivery integration that had never placed an order (now $\sim$5.2k/month) and $\sim$214k unwanted texts/week to excluded patients.}
 \resumeItem{Built an \textbf{OpenAPI audience-grouping framework} with CI coverage checks so each client generates only its own APIs, cutting generated client code by $\sim$\textbf{174k net lines}; \#1 in lines deleted org-wide.}
-\resumeItem{Cut a pharmacy-system integration's p95 latency \textbf{94\%} (15.8s $\rightarrow$ 864ms) by batching N+1 queries, using JPA projections, and caching stable data in Redis.}
+\resumeItem{Cut a pharmacy-system integration's p95 latency \textbf{94\%} (15.8s $\rightarrow$ 864ms) for FIXME pharmacies by batching N+1 SQL queries, using JPA projections, and caching stable data in Redis.}
 \resumeItem{Built zero-to-one pilots end to end: a \textbf{React Native/Expo} counter tablet app with patient chat and order alerts (15 pharmacies, 30k+ pushes) and a Stripe card-reader checkout prototype.}
 \resumeItemListEnd
 
@@ -86,34 +92,35 @@
 \resumeCompanyHeading{RBC Royal Bank}{Toronto, ON}
 \resumeRoleHeading{Software Developer Intern}{May 2024 -- Aug 2024}
 \resumeItemListStart
-\resumeItem{Led 4 interns building a real-time \textbf{LLM note-taking assistant} for SREs that logged incident timelines and resolution notes (React, FastAPI, WebSockets); co-inventor on \href{https://patents.google.com/patent/US20260057185A1/en}{\underline{US patent application 2026/0057185 A1}}; 1 of 8 projects in a decade picked for bank-wide rollout.}
+\resumeItem{Led 4 interns prototyping a real-time \textbf{LLM note-taking assistant} for SREs that logged incident timelines and resolution notes via a Webex-to-OpenAI integration built using FastAPI, MongoDB, and WebSockets.}
+\resumeItem{Submitted as a co-inventor on a \href{https://patents.google.com/patent/US20260057185A1/en}{\underline{US patent application}}; 1 of 8 Amplify projects in a decade rolled out bank-wide.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \section{Projects}
 \resumeSubHeadingListStart
 \resumeProjectHeading
-{\textbf{\href{https://github.com/owencooke/what-to-code}{\underline{What to Code}}} $|$ \emph{Next.js, TypeScript, Supabase, Drizzle, pgvector} $|$ \href{https://what-to-code.vercel.app/}{\underline{Live demo}}}{Jun 2024 -- Jan 2025}
+{\textbf{\href{https://github.com/owencooke/what-to-code}{\underline{What to Code}}} $|$ \emph{Next.js, Vercel, Supabase}}{TODO REMOVE}
 \resumeItemListStart
 \resumeItem{Built and deployed a semantic GitHub-template recommender, curating \textbf{75 templates from 500 repos}.}
 \resumeItem{Launch post drew \textbf{500+ reactions}, 135 comments, and 100+ app-link requests.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
+
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Languages}{: TypeScript, JavaScript, Java, Python, SQL, Rust, C/C++, HTML/CSS} \\
-\textbf{Frameworks}{: React, Next.js, React Native/Expo, Spring Boot, Node.js, FastAPI} \\
-\textbf{AI/LLM}{: LLM agents/tool calling (Pipecat), Claude Code, Gemini, Presidio, pgvector} \\
-\textbf{Infrastructure}{: PostgreSQL, Redis, MongoDB, AWS (S3, SQS), Docker, Vercel, Supabase, Drizzle, Statsig} \\
-\textbf{Practices}{: OpenAPI, zero-downtime migrations, feature flags, GitHub Actions, Jest, JUnit, Pytest, Playwright}
+\textbf{Programming Languages}{: TypeScript, JavaScript, Python, Java, SQL, Rust, C/C++, HTML/CSS} \\
+\textbf{Frameworks}{: React, Next.js, Spring Boot, React Native/Expo, Node.js, FastAPI, Pipecat} \\
+\textbf{Databases \& Infrastructure}{: PostgreSQL, Redis, MongoDB, AWS (S3, SQS), Docker} \\
+\textbf{Testing \& Developer Tools}{: Jest, JUnit, Pytest, Playwright, Git, ELK/Kibana, Grafana, PostHog, Metabase, Statsig}
 }}
 \end{itemize}
 
 \section{Education}
 \resumeSubHeadingListStart
-\resumeCompanyHeading{University of Alberta -- B.Sc. Computer Engineering Co-op, Software Option}{2025}
+\resumeCompanyHeading{University of Alberta -- B.Sc. Computer Engineering, Software}{3.96 GPA $|$ 2025}
 \resumeSubHeadingListEnd
 
 \end{document}
