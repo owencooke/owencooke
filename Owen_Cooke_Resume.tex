@@ -65,7 +65,7 @@
 % TODO needs to be shortened!
 \resumeItem{Refactored the core pharmacy-product tier model referenced 500+ times across 4 monorepos, replacing \textbf{13 conflicting DB fields} and scattered tier-access logic with a simple state machine for 7,000+ pharmacies; rebuilt 7 years of product history and coordinated a 9-engineer migration with zero-downtime.}
 
-\resumeItem{Cut holiday delivery-date support cases from 4+ in a holiday week to \textbf{0} by modeling each courier's schedule separately from pharmacy closures across 13 courier services, including coordinated outreach to 8 regional couriers.}
+\resumeItem{Modeled per-courier holiday delivery schedules for 13 couriers (led outreach to 8 regional vendors), auto-renewed yearly via a holiday API cron; prevented incorrect delivery dates for 12k orders at 163 pharmacies.}
 
 \resumeItem{Led a cleanup across 18 engineers that cut stale feature flags \textbf{40\%} (85 $\rightarrow$ 51), then built a \textbf{GitHub Action cron} that has opened 34 code cleanup PRs using Statsig/Claude APIs and posts a weekly Slack digest with links and trends.}
 \resumeItemListEnd
@@ -77,8 +77,12 @@
 \resumeItem{Shipped bulk package label printing for deliveries, now $\sim$7.6k multi-selects/week (87k labels across 165 pharmacies); unblocked bulk print for 2 couriers by coordinating a v2 API migration, moving $\sim$8,500 orders with zero downtime.}
 
 \resumeItem{Fixed root causes across \textbf{56 pharmacy-reported bug cases} (\#1 of 17 engineers), including a delivery integration that had never placed an order (now $\sim$5.2k/month) and $\sim$214k unwanted texts/week to excluded patients.}
-\resumeItem{Built an \textbf{OpenAPI audience-grouping framework} with CI coverage checks so each client generates only its own APIs, cutting generated client code by $\sim$\textbf{174k net lines}; \#1 in lines deleted org-wide.}
+
+% TODO bold?
+\resumeItem{\#1 in lines deleted org-wide: removed 6 dead courier integrations, legacy APIs and subsystems ($\sim$56k lines), and built an OpenAPI audience grouping for the backend monorepo that cut generated client code by $\sim$\textbf{174k net lines}.}
+
 \resumeItem{Cut a pharmacy-system integration's p95 latency \textbf{94\%} (15.8s $\rightarrow$ 864ms) for FIXME pharmacies by batching N+1 SQL queries, using JPA projections, and caching stable data in Redis.}
+
 \resumeItem{Built 2 zero-to-one pilots for experimental products: an at-the-counter \textbf{Expo} tablet app for order alerts (15 pharmacies, 30k push notifications) and async in-store payment for pharmacy checkouts using a Stripe card-reader.}
 \resumeItemListEnd
 
