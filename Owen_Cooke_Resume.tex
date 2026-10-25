@@ -79,13 +79,13 @@
 \resumeItem{Fixed root causes across \textbf{56 pharmacy-reported bug cases} (\#1 of 17 engineers), including a delivery integration that had never placed an order (now $\sim$5.2k/month) and $\sim$214k unwanted texts/week to excluded patients.}
 \resumeItem{Built an \textbf{OpenAPI audience-grouping framework} with CI coverage checks so each client generates only its own APIs, cutting generated client code by $\sim$\textbf{174k net lines}; \#1 in lines deleted org-wide.}
 \resumeItem{Cut a pharmacy-system integration's p95 latency \textbf{94\%} (15.8s $\rightarrow$ 864ms) for FIXME pharmacies by batching N+1 SQL queries, using JPA projections, and caching stable data in Redis.}
-\resumeItem{Built zero-to-one pilots end to end: a \textbf{React Native/Expo} counter tablet app with patient chat and order alerts (15 pharmacies, 30k+ pushes) and a Stripe card-reader checkout prototype.}
+\resumeItem{Built 2 zero-to-one pilots for experimental products: an at-the-counter \textbf{Expo} tablet app for order alerts (15 pharmacies, 30k push notifications) and async in-store payment for pharmacy checkouts using a Stripe card-reader.}
 \resumeItemListEnd
 
 \resumeRoleHeading{Software Engineer Intern}{Sep 2024 -- Dec 2024}
 \resumeItemListStart
-\resumeItem{Unblocked launch at \textbf{85 pharmacies} with a React transaction-audit tool for self-serve Stripe reconciliation.}
-\resumeItem{Eliminated \textbf{86k invalid REST API errors/day} by updating Java Spring controllers and React flows to return correct empty-list responses for missing resources.}
+\resumeItem{Unblocked launch of \textbf{85 pharmacies} by building a React tool for itemized Stripe transactions required for audits.}
+\resumeItem{Eliminated \textbf{86k invalid REST API errors/day} by updating Java Spring controllers and React flows to return correct empty-list responses for missing resources, improving real error observability in Elastic APM.}
 \resumeItem{Cut file-upload latency \textbf{30\% platform-wide} by fixing S3 content-length headers and a high-overhead writer.}
 \resumeItemListEnd
 
@@ -93,7 +93,7 @@
 \resumeRoleHeading{Software Developer Intern}{May 2024 -- Aug 2024}
 \resumeItemListStart
 \resumeItem{Led 4 interns prototyping a real-time \textbf{LLM note-taking assistant} for SREs that logged incident timelines and resolution notes via a Webex-to-OpenAI integration built using FastAPI, MongoDB, and WebSockets.}
-\resumeItem{Submitted as a co-inventor on a \href{https://patents.google.com/patent/US20260057185A1/en}{\underline{US patent application}}; 1 of 8 Amplify projects in a decade rolled out bank-wide.}
+\resumeItem{Submitted as a co-inventor for a \href{https://patents.google.com/patent/US20260057185A1/en}{\underline{US patent application}}; 1 of 8 Amplify projects in a decade rolled out bank-wide.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
