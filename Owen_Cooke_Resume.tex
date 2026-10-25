@@ -59,8 +59,8 @@
 \resumeCompanyHeading{NimbleRx}{Redwood City, CA}
 \resumeRoleHeading{Senior Software Engineer}{Jul 2026 -- Present}
 \resumeItemListStart
-\resumeItem{Integrated Remedy (an acquired YC startup)'s \textbf{AI voice agent} for pharmacy inbound calls onto pharmacy system-agnostic tool calls (patient identification, refills, SMS link to checkout); now handling $\sim$\textbf{1,500 calls/week}.}
-\resumeItem{Led design for v2 of the voice agent, expanding it from 4 to \textbf{13 tool calls}; a per-call randomized A/B cut upfront requests to speak to a human from \textbf{31.6\% to 10.6\%} and raised agent self-served calls from 7.4\% to 12.3\%.}
+\resumeItem{Integrated Remedy (an acquired YC startup)'s \textbf{AI voice agent} for pharmacy inbound calls onto pharmacy system-agnostic tool calls (patient identification, refills, online checkout); now handling $\sim$\textbf{1,500 calls/week}.}
+\resumeItem{Led v2 voice agent design and built \textbf{7 new tool calls} (order history, SMS app links); a per-call randomized A/B cut upfront requests to speak to a human from \textbf{31.6\% to 10.6\%} and raised agent self-served calls from 7.4\% to 12.3\%.}
 
 % TODO needs to be shortened!
 \resumeItem{Refactored the core pharmacy-product tier model referenced 500+ times across 4 monorepos, replacing \textbf{13 conflicting DB fields} and scattered tier-access logic with a simple state machine for 7,000+ pharmacies; rebuilt 7 years of product history and coordinated a 9-engineer migration with zero-downtime.}
@@ -74,7 +74,7 @@
 \resumeItemListStart
 \resumeItem{Rebuilt $\sim$\textbf{\$210k/month} in pharmacy incentive payouts as an automated monthly cron: per-pharmacy calculations, a Retool UI for Finance approval, and payout emails via SendGrid, replacing hand-run SQL and manual emails.}
 
-\resumeItem{Shipped bulk package label printing for the delivery orders dashboard (4,044 jobs across 116 pharmacies in week one; now $\sim$\textbf{8k jobs/week}) and owned the courier v2 API migration behind it, moving \textbf{8,320 orders} with zero downtime.}
+\resumeItem{Shipped bulk package label printing for deliveries, now $\sim$7.6k multi-selects/week (87k labels across 165 pharmacies); unblocked bulk print for 2 couriers by coordinating a v2 API migration, moving $\sim$8,500 orders with zero downtime.}
 
 \resumeItem{Fixed root causes across \textbf{56 pharmacy-reported bug cases} (\#1 of 17 engineers), including a delivery integration that had never placed an order (now $\sim$5.2k/month) and $\sim$214k unwanted texts/week to excluded patients.}
 \resumeItem{Built an \textbf{OpenAPI audience-grouping framework} with CI coverage checks so each client generates only its own APIs, cutting generated client code by $\sim$\textbf{174k net lines}; \#1 in lines deleted org-wide.}
@@ -100,10 +100,10 @@
 \section{Projects}
 \resumeSubHeadingListStart
 \resumeProjectHeading
-{\textbf{\href{https://github.com/owencooke/what-to-code}{\underline{What to Code}}} $|$ \emph{Next.js, Vercel, Supabase}}{TODO REMOVE}
+{\textbf{\href{https://github.com/owencooke/what-to-code}{\underline{What to Code}}} $|$ \emph{Next.js, LangChain, Vercel, Supabase }}{TODO REMOVE}
 \resumeItemListStart
-\resumeItem{Built and deployed a semantic GitHub-template recommender, curating \textbf{75 templates from 500 repos}.}
-\resumeItem{Launch post drew \textbf{500+ reactions}, 135 comments, and 100+ app-link requests.}
+\resumeItem{Built LLM idea generation $\rightarrow$ semantic GitHub starter template recommendation for devs using pgvector search.}
+\resumeItem{Launch posts as part of \href{https://buildspace.so/}{\underline{Buildspace (YC S20)}} drew \textbf{500+ reactions} and \textbf{100+ app-link requests} on social media.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -120,7 +120,7 @@
 
 \section{Education}
 \resumeSubHeadingListStart
-\resumeCompanyHeading{University of Alberta -- B.Sc. Computer Engineering, Software}{3.96 GPA $|$ 2025}
+\resumeCompanyHeading{University of Alberta -- B.Sc. Computer Engineering, Software FIXME}{3.96 GPA $|$ 2025}
 \resumeSubHeadingListEnd
 
 \end{document}
