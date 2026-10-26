@@ -63,7 +63,7 @@
 \resumeItem{Led v2 voice agent design and built \textbf{7 new tool calls} (order history, SMS app links); a per-call randomized A/B cut upfront requests to speak to a human from \textbf{31.6\% to 10.6\%} and raised agent self-served calls from 7.4\% to 12.3\%.}
 
 % TODO needs to be shortened!
-\resumeItem{Refactored the core pharmacy-product tier model referenced 500+ times across 4 monorepos, replacing \textbf{13 conflicting DB fields} and scattered tier-access logic with a simple state machine for 7,000+ pharmacies; rebuilt 7 years of product history and coordinated a 9-engineer migration with zero-downtime.}
+\resumeItem{Refactored the core pharmacy-product tier model referenced 500+ times across 4 monorepos, replacing \textbf{13 conflicting DB fields} and scattered tier-access logic with a simple state machine for 7,000+ pharmacies; rebuilt 7 years of product history and coordinated a 9-engineer migration with zero downtime.}
 
 \resumeItem{Modeled per-courier holiday delivery schedules for 13 couriers (led outreach to 8 regional vendors), auto-renewed yearly via a holiday API cron; prevented incorrect delivery dates for 12k orders at 163 pharmacies.}
 
@@ -74,12 +74,12 @@
 \resumeItemListStart
 \resumeItem{Rebuilt $\sim$\textbf{\$210k/month} in pharmacy incentive payouts as an automated monthly cron: per-pharmacy calculations, a Retool UI for Finance approval, and payout emails via SendGrid, replacing hand-run SQL and manual emails.}
 
-\resumeItem{Shipped bulk package label printing for deliveries, now $\sim$7.6k multi-selects/week (87k labels across 165 pharmacies); unblocked bulk print for 2 couriers by coordinating a v2 API migration, moving $\sim$8,500 orders with zero downtime.}
+\resumeItem{Shipped bulk package label printing for high-volume delivery pharmacies ($\sim$7.6k multi-selects/week, 87k labels across 165 stores); unblocked bulk print for 2 couriers by organizing API migration for $\sim$8,500 orders with zero downtime.}
 
 \resumeItem{Fixed root causes across \textbf{56 pharmacy-reported bug cases} (\#1 of 17 engineers), including a delivery integration that had never placed an order (now $\sim$5.2k/month) and $\sim$214k unwanted texts/week to excluded patients.}
 
 % TODO bold?
-\resumeItem{\#1 in lines deleted org-wide: removed 6 dead courier integrations, legacy APIs and subsystems ($\sim$56k lines), and built an OpenAPI audience grouping for the backend monorepo that cut generated client code by $\sim$\textbf{174k net lines}.}
+\resumeItem{Identified $\sim$56k lines of dead code (6 courier vendors, multiple unused app features), and built OpenAPI audience grouping for the backend monorepo that cut generated client code by $\sim$\textbf{174k lines} (\#1 in lines deleted org-wide).}
 
 \resumeItem{Cut a pharmacy-system integration's p95 latency \textbf{94\%} (15.8s $\rightarrow$ 864ms) for FIXME pharmacies by batching N+1 SQL queries, using JPA projections, and caching stable data in Redis.}
 
