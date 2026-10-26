@@ -23,8 +23,8 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
 \urlstyle{same}
 \raggedbottom
 \raggedright
@@ -40,13 +40,13 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.22in,label=\textbullet]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.22in,label=$\bullet$,itemsep=3pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \begin{document}
 
 \begin{center}
-    \textbf{\huge \scshape Owen Cooke} \\ \vspace{1pt}
+    \textbf{\LARGE \scshape Owen Cooke} \\ \vspace{1pt}
     \small 415-410-0316 $|$
     \href{mailto:owencooke15@gmail.com}{\underline{owencooke15@gmail.com}} $|$
     \href{https://www.linkedin.com/in/owenscooke/}{\underline{linkedin.com/in/owenscooke}} $|$
@@ -73,7 +73,7 @@
 \resumeItemListStart
 \resumeItem{Rebuilt $\sim$\textbf{\$210k/month} in pharmacy incentive payouts as an automated monthly cron: per-pharmacy calculations, a Retool UI for Finance approval, and payout emails via SendGrid, replacing hand-run SQL and manual emails.}
 
-\resumeItem{Shipped bulk package label printing for high-volume delivery pharmacies ($\sim$7.6k multi-selects/week, \textbf{87k labels across 165 stores}); unblocked bulk print for 2 couriers by organizing API migration for $\sim$8,500 orders with zero downtime.}
+\resumeItem{Shipped bulk package label printing for high-volume delivery pharmacies ($\sim$7.6k multi-selects/week, \textbf{87k labels across 165 stores}); unblocked bulk print for 2 couriers via API migration of $\sim$8,500 orders with zero downtime.}
 
 \resumeItem{Fixed root causes across \textbf{56 pharmacy-reported bug cases} (\#1 of 17 engineers), including a delivery integration that had never placed an order (now $\sim$5.2k/month) and $\sim$214k unwanted texts/week to excluded patients.}
 
@@ -81,7 +81,7 @@
 
 \resumeItem{Cut a pharmacy system integration's p95 latency \textbf{94\%} (15.8s $\rightarrow$ 864ms) for 100 pharmacies by batching N+1 SQL queries, using JPA projections instead of full Spring JPA Entities, and caching stable data in Redis.}
 
-\resumeItem{Built 2 zero-to-one pilots for experimental products: an at-the-counter Expo tablet app for order alerts (15 pharmacies, \textbf{30k push notifications}) and async in-store payment for pharmacy checkouts using a Stripe card-reader.}
+\resumeItem{Built 2 zero-to-one pilots for experimental products: an at-the-counter Expo tablet app for order alerts (15 pharmacies, \textbf{30k push notifications}) and async in-store checkout payments using a Stripe card-reader.}
 \resumeItemListEnd
 
 \resumeRoleHeading{Software Engineer Intern}{Sep 2024 -- Dec 2024}
